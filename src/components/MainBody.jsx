@@ -4,7 +4,7 @@ export function MainBody() {
       <section className="body-container" id="body-container">
         <figure className="about-me-photo">
           <img
-            src="https://cdn.pixabay.com/photo/2018/05/14/16/54/cyber-3400789_960_720.jpg"
+            src="https://i.imgur.com/wYXbzqe.jpg"
             alt=""
           />
         </figure>
