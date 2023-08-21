@@ -21,6 +21,13 @@ html {
   overflow-x: hidden;
 }
 
+#root{
+  background: rgb(210,255,244);
+  background: linear-gradient(90deg, rgba(210,255,244,0.21536536978072474) 0%, rgba(255,215,255,0.4198471624978116) 51%, rgba(210,255,244,0.2405754538143382) 100%);
+  /* background: rgb(235,210,255); */
+  /* background: radial-gradient(circle, rgba(235,210,255,1) 0%, rgba(231,242,255,1) 53%); */
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -60,7 +67,6 @@ display: none;
   color: var(--dark-blue);
   display: flex;
   align-items: center;
-
   list-style: none;
   gap: 1.7rem;
   font-size: 1.6rem;
@@ -132,8 +138,8 @@ display: none;
 }
 
 .navbar-footer {
+  text-align: center;
   margin-top: 6rem;
-  background-color: #fff;
   width: 100%;
   height: 100vh;
   display: grid;
@@ -159,7 +165,7 @@ display: none;
 
 h1 {
   position: relative;
-  display: flex;
+  /* display: flex; */
   background-image: linear-gradient(
     90deg,
     #1df1ef,
@@ -200,6 +206,7 @@ h1 {
 
 .navbar-footer p:nth-child(1) {
   display: flex;
+  justify-content: center;
   font-size: 2rem;
   text-align: center;
   background-image: linear-gradient(#002660, #2546ff);
@@ -420,6 +427,7 @@ h1 {
 
 .knowledge-section figure {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding-top: 5rem;
@@ -446,7 +454,7 @@ h1 {
 /*Contact me*/
 
 .contact-container {
-  margin: 20rem 0;
+  padding: 20rem 0;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -484,6 +492,7 @@ h1 {
   }
 
   .knowledge-section figure {
+    flex-wrap: nowrap;
     justify-content: start;
     overflow-x: scroll;
   }
@@ -535,4 +544,10 @@ h1 {
     font-size: 1.8rem;
   }
 
+}
+
+@media (max-width: 800px) {
+  #mouse-follow{
+    display: none;
+  }
 }
