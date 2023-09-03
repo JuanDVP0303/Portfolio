@@ -4,7 +4,6 @@ const scrollTo = (elementId) => {
 };
 
 export function ButtonMove({ container, children }) {
-  console.log(container)
   return (
     <button
       onClick={() => {

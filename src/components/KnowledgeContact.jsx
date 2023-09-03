@@ -6,7 +6,6 @@ const imagesURL = [
 ]
 
 export function KnowledgeContact() {
-console.log("hola")
     return (
     <section className="knowledge-section" id="knowledge-section">        
     <article className="knowledge-container" id="knowledge-container">
