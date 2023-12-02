@@ -22,6 +22,7 @@ function UlNavbar({className}){
           <li>
             <NavbarButton container={"home"}>Inicio</NavbarButton>
           </li>
+          <li><NavbarButton container={"experience"}>Experiencias</NavbarButton></li>
           <li><NavbarButton container={"projects-container"}>Proyectos</NavbarButton></li>
           <li><NavbarButton container={"knowledge-section"}>Habilidades</NavbarButton></li>
           </ul>
@@ -40,23 +41,14 @@ export function HeaderNav() {
     <>
       <nav className="navbar">
       <div>
-        <HiCode className="code" />
+      <HiCode className="code" />
       <UlNavbar className="navbar-ul"/>
-        
+
         <button className="toggle-menu" onClick={() => setToggle(!toggle)}>
         <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 124 124"><path d="M112 6H12C5.4 6 0 11.4 0 18s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12zM112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12zM112 94H12c-6.6 0-12 5.4-12 12s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z"></path></svg>
         </button>
         </div>
-
-
         <UlNavbar className={`navbar-ul-mobile ${!toggle ? toggleClass : ""}`}/>
-
-        {/* {
-        toggle && 
-        } */}
-
-
-        
       </nav>
 
 

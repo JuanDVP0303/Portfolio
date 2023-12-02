@@ -4,6 +4,7 @@ import { Header} from "./components/Header";
 import { MainBody } from "./components/MainBody";
 import { Projects } from "./components/Projects";
 import {KnowledgeContact} from "./components/KnowledgeContact";
+import Experience from "./components/Experience";
 
 
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <Header />
       <MainBody/>
+      <Experience/>
       <Projects />
       <KnowledgeContact/>
     </>

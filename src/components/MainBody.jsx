@@ -4,7 +4,7 @@ export function MainBody() {
       <section className="body-container" id="body-container">
         <figure className="about-me-photo">
           <img
-            src="https://i.imgur.com/wYXbzqe.jpg"
+            src="https://i.postimg.cc/nrkbZCy6/zyro-image.png"
             alt=""
           />
         </figure>

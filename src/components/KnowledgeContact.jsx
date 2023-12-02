@@ -1,8 +1,8 @@
-const images = ["https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png", "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png", "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png", "https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png", "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_tailwind_icon_130128.png", "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_node_icon_130301.png", "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_git_icon_130581.png", "https://cdn.icon-icons.com/icons2/2406/PNG/512/github_git_icon_145985.png"]
+const images = ["https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png", "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png", "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png", "https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png", "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_tailwind_icon_130128.png","https://i.postimg.cc/sXf7gLq1/png-transparent-odoo-business-payment-de-gea-spain-purple-violet-payment-thumbnail-removebg-preview.png", "https://i.postimg.cc/SNQNRMyT/django-logo-4-C5-ECF7036-seeklogo-com.png","https://i.postimg.cc/85knMNjS/Python-logo-notext-svg.png","https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_node_icon_130301.png", "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_git_icon_130581.png", "https://cdn.icon-icons.com/icons2/2406/PNG/512/github_git_icon_145985.png"]
 
 const imagesURL = [
     "https://html.spec.whatwg.org/multipage/", "https://www.w3.org/Style/CSS/", "https://www.w3schools.com/js/",
-    "https://react.dev", "https://tailwindcss.com", "https://nodejs.org/es", "https://git-scm.com", "https://github.com"
+    "https://react.dev", "https://tailwindcss.com","https://www.odoo.com/es_ES","https://www.djangoproject.com", "https://www.python.org","https://nodejs.org/es", "https://git-scm.com", "https://github.com"
 ]
 
 export function KnowledgeContact() {
