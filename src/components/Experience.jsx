@@ -10,6 +10,7 @@ function Experience() {
                 <h3>{exp.job}</h3>
                 <img src={exp.image} alt="job" />
                 <p>{exp.description}</p>
+                <a className="experience-button" href={exp.link} target="_blank" rel="noreferrer">{exp.link ? "Ver página" : "En desarrollo"}</a>
             </article>
         })}
         </div>

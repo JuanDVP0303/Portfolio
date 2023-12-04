@@ -347,6 +347,7 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: white;
   max-width: 40rem;
+  max-height: 60rem;
 }
 
 .experience-section article h2{
@@ -364,13 +365,24 @@ h1 {
 .experience-section article p{
   font-size: 1.6rem;
   width: 100%;
+  min-height: 25rem;
+
 }
 
 .experience-section article img{
+  margin-bottom: 2rem;
   width: 100%;
   /* max-width: 32rem; */
 }
-
+.experience-button{
+  padding: .8rem;
+  background-color: var(--dark-blue);
+  color: white;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  border-radius: 1rem;
+}
 
 /*Proyectos*/
 
